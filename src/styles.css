@@ -1,0 +1,52 @@
+.title {
+  text-align: center;
+}
+
+body {
+  background-color: rgba(194, 193, 191, 0.1);
+  margin: 0;
+  margin-left: 10px;
+  height: 100vh;
+  width: 50%;
+}
+
+.balance {
+  margin: 0;
+}
+.balance-title {
+  margin: 0;
+}
+
+.add-transaction {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-transaction > * {
+  padding: 4px;
+}
+
+.income-expenses {
+  display: flex;
+  border: 2px solid white;
+  background-color: white;
+  justify-content: space-around;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+/* 
+.dashboard-div {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+} */
